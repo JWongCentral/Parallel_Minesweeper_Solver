@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(198, 198, 198);
+}
+.box{
+    position:relative;
+    width:100%;
+    text-align:center;
+}
+h2, h3{
+    color: rgb(0, 0, 0);
+}
+.container{
+    position:relative;
+    width:100%;
+    align-items: center;
+}
+.grid{
+    display: inline-block;
+    position:relative;
+    margin-left:auto;
+    margin-right: auto;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:grey;
+}
+
+._{
+    width:20px;
+    height:20px;
+    background-color: orange;
+    outline: 1px solid black;
+}
+.opened{
+    background-color:white;
+}
+.string-container{
+    width:700px;
+    height:350px;
+    position:relative;
+    outline:3px solid black;
+}
+.parse_string{
+    display:relative;
+    padding:2%;
+    width:500px;
+    height:250px;
+    word-wrap: break-word;
+    position:relative;
+    left:100px;
+    outline:3px solid black;
+    
+}
