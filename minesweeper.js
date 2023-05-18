@@ -1,7 +1,7 @@
 var components = {
-    row : 10,
-    col : 20,
-    num_bomb : 10,
+    row : 40,
+    col : 40,
+    num_bomb : 400,
     bomb_icon : '💣', 
     flag_icon: '🚩',
 }
@@ -66,6 +66,18 @@ function updateNumbers(){
             }
         }
     }
+
+    let str = ""
+    //logging answer to console for debugging purposes
+    for (let row = 0; row < components.row; row++){
+        for (let col = 0; col < components.col; col++){
+            if(bombArray[row][col]=="Bomb")
+                str+='X'
+            else
+                str+=bombArray[row][col]
+        }
+    }
+    console.log(str)
 }
 
 
